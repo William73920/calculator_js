@@ -1,0 +1,43 @@
+.calculator {
+  border: 1px solid #ccc;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.calculator input[type="text"] {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1;
+}
+
+.calculator .keys button {
+  width: 23%;
+  height: 50px;
+  font-size: 24px;
+  margin: 1%;
+  background-color: pink;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.calculator .keys button:hover {
+  background-color: chocolate;
+}
+
+.calculator .keys button:active {
+  background-color: aquamarine;
+}
